@@ -1,4 +1,4 @@
-FROM percona:5.7
+FROM mariadb:latest
 
 ENV MYSQL_USER "someUser"
 ENV MYSQL_PASSWORD "somePassword"
